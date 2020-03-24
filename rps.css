@@ -75,3 +75,19 @@ img {
     font-size: 48px;
     font-weight: bold;
 }
+
+
+.green-glow {
+    border: 3px solid green;
+    box-shadow: 0 0 10px yellowgreen;
+}
+
+.red-glow {
+    border: 3px solid red;
+    box-shadow: 0 0 10px orangered;
+}
+
+.gray-glow {
+    border: 3px solid gray;
+    box-shadow: 0 0 10px gold;
+}
