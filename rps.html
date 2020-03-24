@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <title>Rock vs Paper vs Scissors!</title>
-    </header>
+        <link rel="stylesheet" type="text/css" href="rps.css">
+    </head>
+
     <body>
-        <script>
-            const computerPlay = () => {
-                return 'Rock';
-                return 'Paper';
-                return 'Scissors';
-            }
-        </script>
+
+        <header>
+            <h1>Rock vs Paper vs Scissors!</h1>
+        </header>
+
+        <section class="game">
+
+            <div id="Player-Points">
+                <h2>Your Score</h2>
+                <span id="player-score">0</span>
+            </div>
+
+            <div id="Computer-Points">
+                <h2>Computer Score</h2>
+                <span id="computer-score">0</span>
+            </div>
+        </section>
+
+        <div class="result">
+            <p>You Win!</p>
+        </div>
+
+        <div class="choices">
+            <div class=choice id="r">
+                <img src="Rock-Paper-Scissors-Img/Rock.png" alt="A picture of a rock">
+            </div>
+            <div class=choice id="p">
+                <img src="Rock-Paper-Scissors-Img/Paper.png" alt="A picture of a rock">
+            </div>
+            <div class=choice id="s">
+                <img src="Rock-Paper-Scissors-Img/Scissors.png" alt="A picture of a rock">
+            </div>
+        </div>
+
+        <p id="action">Choose your charactrer!</p>
+
+        <script src="rps.js"></script>
+
     </body>
     <footer>
 
