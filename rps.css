@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-    background: darkblue;
+    background: #0093D7;
     padding: 15px;
 }
 h1 {
@@ -13,7 +13,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: lightsalmon;
+    background-color: #F38F17;
 }
 .game {
     margin: 20px;
@@ -61,7 +61,7 @@ img {
 
 .choice:hover {
     cursor: pointer;
-    background: lightyellow;
+    background: #0093D7;
 }
 #action {
     text-align: center;
@@ -89,5 +89,5 @@ img {
 
 .gray-glow {
     border: 3px solid gray;
-    box-shadow: 0 0 10px gold;
+    box-shadow: 0 0 10px #3D3C06;
 }

@@ -34,7 +34,7 @@ const lose = (playerChoice, computerChoice) => {
     computerScore++;
     playerScore_span.innerHTML = playerScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = `${convertToWord(playerChoice)} loses to ${convertToWord(computerChoice)}. You Lost...`;
+    result_p.innerHTML = `${convertToWord(playerChoice)} loses to ${convertToWord(computerChoice)}. You Lose...`;
     document.getElementById(playerChoice).classList.add('red-glow');
     setTimeout(function() { document.getElementById(playerChoice).classList.remove('red-glow') }, 300);
 }
